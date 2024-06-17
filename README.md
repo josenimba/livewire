@@ -1,4 +1,4 @@
-<p align="center"><img width="300" src="/art/logo.svg" alt="Livewire Logo"></p>
+<p align="center"><img alt="readme_logo.png" src="https://github.com/livewire/livewire/blob/main/art/readme_logo.png?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 kzRgrI"></p>
 
 <p align="center">
     <a href="https://packagist.org/packages/livewire/livewire">
