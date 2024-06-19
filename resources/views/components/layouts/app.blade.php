@@ -8,7 +8,7 @@
     </head>
     <body>
         <nav>
-            <a href="/todos">ToDos</a>
+            <a href="/">ToDos</a>
             <a href="/counter">Counter</a>
         </nav>
         {{ $slot }}
