@@ -2,6 +2,10 @@
     color: red;
 }
 
-#a{
+a{
     text-decoration: none;
+}
+
+.current{
+    font-weight: bold;
 }

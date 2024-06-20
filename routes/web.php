@@ -7,5 +7,9 @@ use App\Livewire\Todos;
 
 
 
-Route::get('/', Todos::class);
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/todos', Todos::class);
 Route::get('/counter', Counter::class);

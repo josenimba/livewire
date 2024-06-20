@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Livewire Basics</title>
+    <link rel="stylesheet" href="css/app.css">
 </head>
+
 <body>
-    <livewire:todos />
-    <livewire:counter />
+    <nav>
+        <a href="/" @class(['current' => request()->is('/')])>Welcome</a>
+        <a href="/todos" @class(['current' => request()->is('todos')])>ToDos</a>
+        <a href="/counter" @class(['current' => request()->is('counter')])>Counter</a>
+    </nav>
+
+
+    <!-- <livewire:counter /> Muestra el componente counter -->
+
 </body>
+
 </html>
