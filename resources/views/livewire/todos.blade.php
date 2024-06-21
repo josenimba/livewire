@@ -2,10 +2,10 @@
     <form wire:submit="add">
 
         <!-- con el wire:model.change se actualiza cuando cambias el foco o mueves algo -->
-        <input type="text" wire:model.change="todo">
+        <!-- <input type="text" wire:model.change="todo"> -->
 
         <!-- con el debounce se actualiza cuando dejas de escribir -->
-        <!-- <input type="text" wire:model.live.bounce="todo"> -->
+        <input type="text" wire:model.live.bounce="todo">
 
         <!-- wire:model.live actualiza cada vez que escribes algo(fetch) -->
         <!-- <input type="text" wire:model.live="todo"> -->

@@ -13,6 +13,7 @@
         <a href="/" @class(['current' => request()->is('/')])>Welcome</a>
         <a href="/todos" @class(['current' => request()->is('todos')])>ToDos</a>
         <a href="/counter" @class(['current' => request()->is('counter')])>Counter</a>
+        <a href="/posts" @class(['current' => request()->is('posts')])>Posts</a>
     </nav>
 
 

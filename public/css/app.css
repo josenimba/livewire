@@ -9,3 +9,11 @@ a{
 .current{
     font-weight: bold;
 }
+
+table{
+    border: 1px black solid;
+}
+
+td{
+    border: 1px black solid;
+}
