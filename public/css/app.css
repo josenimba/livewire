@@ -1,0 +1,19 @@
+#nav{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+}
+
+.current{
+    font-weight: bold;
+}
+
+table{
+    border: 1px black solid;
+}
+
+td{
+    border: 1px black solid;
+}
