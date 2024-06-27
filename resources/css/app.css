@@ -5,3 +5,45 @@
 #a{
     text-decoration: none;
 }
+
+/* Estilo general para el contenedor */
+#div {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilo para las celdas del encabezado */
+thead th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilo para las celdas del cuerpo */
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo para las filas impares del cuerpo */
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para las filas pares del cuerpo */
+tbody tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+/* Estilo para las celdas al pasar el ratón */
+tbody tr:hover {
+    background-color: #ddd;
+}
